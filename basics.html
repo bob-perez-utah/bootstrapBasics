@@ -5,10 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bootstrap Basics</title>
+    <!-- <link rel="stylesheet" type="text/css" href="bootstrap.css"> -->
+    <link rel="stylesheet" type="text/css" href="basics.css">
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+<!-- You can override a class in the bootstrap stylesheet: -->
+<style type="text/css">
+.btn-danger {
+    background: orange;
+}
+</style>
 
 
 </head>
 <body>
     <h1>Bootstrap Basics</h1>
+    <button class="btn btn-danger">Click Me</button>
+    <button class="btn btn-success active">Click Me</button>
+    <button class="btn btn-success" disabled="disabled">Click Me</button>
+    <a href="http://getbootstrap.com/docs/4.1/getting-started/introduction/" class="btn btn-info btn-lg">Bootstrap Docs</a>
 </body>
 </html>
